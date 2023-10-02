@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./bilder/bg2.jpg);
+    background-blend-mode: luminosity;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #e9967a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* hier beginnt mein Header */
+
+header {
+    background-color: rgba(75, 56, 115, 0.4);
+    border-radius: 10%;
+    margin: 6% 10% 5% 10%;
+    padding: 5% 5% 12% 5%;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(246, 164, 42, 0.3);
+}
+
+
+/* Beginn Hauptnavigation */
+
+nav {
+    position: relative;
+    top: 0;
+    margin-top: -140px;
+    margin-left: 135px;
+    font-family: fantasy;
+    font-size: clamp(20px, 2vw, 50px);
+}
+
+#haupt a:link {
+    display: inline-block;
+    background-color: rgba(222, 184, 135, 0.6);
+    border: 3px solid rgba(73, 35, 119, 0.7);
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 2px rgba(246, 164, 42, 0.3);
+    width: 20%;
+    text-align: center;
+    color: rgba(75, 56, 115, 0.8);
+    ;
+    text-decoration: none;
+}
+
+#haupt a:visited {
+    display: inline-block;
+    background-color: rgba(244, 162, 55, 0.8);
+    border: 3px solid rgba(73, 35, 119, 0.5);
+    border-radius: 10%;
+    width: 20%;
+    text-align: center;
+    color: rgba(75, 56, 115, 0.8);
+    ;
+    text-decoration: none;
+}
+
+#haupt a:active {
+    background-color: rgba(243, 168, 70, 0.8);
+    color: rgb(133, 15, 15);
+}
+
+#haupt a:hover {
+    color: rgba(133, 15, 15, 0.5);
+    box-shadow: 3px 3px 3px rgba(133, 15, 15, 0.5);
+    ;
+}
+
+.besucht {
+    background-color: rgba(243, 168, 70, 0.8);
+    color: rgb(133, 15, 15);
+}
+
+
+/* Angaben zm Logo im Header */
+
+.logo {
+    mix-blend-mode: overlay;
+}
+
+.logo img {
+    display: block;
+    position: absolute;
+}
+
+.logo2 a {
+    display: block;
+}
+
+
+/* Ende Navigation */
+
+
+/* hier endet mein Header */
+
+
+/* Beginn des Mains */
+
+/* Beginn Breadcrump */
+#breadcrumb {
+    position: relative;
+    top: 0;
+    padding: 3% 5% 3% 3%;
+    margin: 0% 0% 0% 55%;
+    text-align: right;
+}
+
+#breadcrump p {
+    font-size: 0.7em;
+}
+
+span.ist {
+    color: rgba(253, 151, 34, 0.8);
+}
+
+/* Ende Breadcrump */
+
+/* weiter mit Main */
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5%;
+    margin: 0% 10% 5% 10%;
+    padding: 5%;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.4);
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 2.2em;
+    padding: 0% 0% 0% 3%;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+h5 {
+    font-size: 1.1em;
+}
+
+h1,
+h4,
+h5,h3,h2 {
+    color: #4B3873;
+}
+
+p {
+    color: #8C5188;
+    
+}
+
+.zitat {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(75, 56, 115);;
+}
+
+a:hover {
+    color: rgba(251, 152, 31, 0.8);
+}
+strong {
+    color: #4B3873;
+}
+
+/* Selection-Box Einträge für Textfelder im Main der Seiten */
+.einträge {
+    background-color: #deb88733;
+    border-radius: 5%;
+    padding: 3%;
+    margin: 0% 0% 2% 0%;
+    font-size: 1.1em;
+    text-align: justify;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.1);
+}
+
+/* Selection-Box Ende */
+
+/* Hier beginnt Bild in der Kladde */
+
+article img {
+    display: inline-block;
+    
+}
+
+article a {
+    display: inline-block;
+}
+
+a:hover.speziell2 {
+    background-image: url(./bilder/photo_2022-09-27_12-10-38kl.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    }
+
+a:hover.speziell2 img {
+    visibility: hidden;
+}
+/* Hier endet Bild in der Kladde */
+
+
+/* Hier beginnt Bild Kontakt */
+.speziell3 {
+    margin: 0% 2% 5% 16%;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.1);
+}
+/* Hier endet Bild Kontakt */
+
+
+/* Hier beginnt Video im Über-Teil */
+article.video {
+    margin: 5% 2% 5% 16%;
+}
+
+/* Hier endet Video im Über-Teil */
+
+
+/* Beginn Kontaktformular */
+
+#form1 {
+    margin: 5% 2% 5% 16%;
+}
+
+label {
+    color: #8C5188;
+    font-size: 1.1em;
+}
+
+article.form2 {
+    margin: 2% 2% 2% 0%;
+}
+
+div.f2 {
+    padding-right: 5%;
+    display: inline-block;
+}
+
+div.f3 {
+    padding-right: 3%;
+    display: inline-block;
+}
+
+div.f4 {
+    padding-right: 2%;
+    display: inline-block;
+}
+
+article.form3 {
+    margin: 2% 2% 2% 0%;
+}
+
+article.form4 {
+    margin: 2% 2% 5% 0%;
+}
+
+article.form5 {
+    margin: 2% 2% 3% 0%;
+    
+}
+
+article.form6 {
+    margin: 2% 2% 2% 0%;
+}
+
+textarea {
+    background-color: rgba(233, 150, 122, 0.4);
+    border-radius: 10%;
+    border: 2px rgba(165, 42, 42, 0.4) solid;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.1);
+    padding: 1.7em;
+    caret-color: brown;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+textarea:focus {
+    background: rgba(233, 150, 122, 0.6);
+    border: 2px rgba(165, 42, 42, 0.6) solid;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.3);
+}
+
+input {
+    background-color: rgba(233, 150, 122, 0.4);
+    border-radius: 10%;
+    border: 2px rgba(165, 42, 42, 0.4) solid;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.1);
+    padding: 0.7em;
+    caret-color: brown;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8em;
+}
+
+input:focus {
+    background: rgba(233, 150, 122, 0.6);
+    border: 2px rgba(165, 42, 42, 0.6) solid;
+    box-shadow: 3px 3px 3px 3px rgba(75, 56, 115, 0.3);
+}
+
+/* Ende Kontaktformular */
+
+/* hier beginnt der Datenschutz */
+
+ul.datenschutz li {
+    color: #8C5188;
+}
+
+/* hier beginnt der Footer */
+
+footer {
+    background-color: rgba(75, 56, 115, 0.4);
+    border-radius: 10%;
+    margin: 3% 10% 5% 10%;
+    padding: 5% 5% 5% 5%;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(246, 164, 42, 0.3);
+}
+
+
+/* hier beginnt die Folgen-sie-mir-Section */
+
+#folgen {
+    /* border: 5px solid #000000; */
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+.crskunst {
+    /* border: 3px solid orange;*/
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin: 2% 2% 2% 4%;
+    padding: 2%;
+}
+
+.alleskuehn {
+    /* border: 3px solid orange;*/
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin: 2% 2% 2% 4%;
+    padding: 2%;
+}
+
+.facebook {
+    /* border: 3px solid orange;*/
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin: 2% 2% 2% 4%;
+    padding: 2%;
+}
+
+.insta {
+    /* border: 3px solid orange;*/
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin: 2% 2% 2% 4%;
+    padding: 2%;
+}
+
+.cloud {
+    /* border: 3px solid orange;*/
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin: 2% 2% 2% 4%;
+    padding: 2%;
+}
+
+h4.footer1,
+h5.footer2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+h4.footer1 {
+    font-size: 1.5em;
+}
+
+h5.footer2 {
+    font-size: 1.2em;
+}
+
+
+/* hier endet die Folgen-sie-mir-Section */
+
+
+/* und dann noch der Verweis auf den Macher dieses Übungs-Designs und der Verweis auf DCI als Veranstalter des Vorbereitungskurses */
+
+#copy {
+    /*border: 5px solid #000000;*/
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+.copy2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9em;
+}
+
+.copy3 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.copy3:hover {
+    color: rgba(251, 152, 31, 0.8);
+}
+
+#impressum {
+    /*border: 5px solid #000000;*/
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+/* hier ist das CSS für die Icons von ionic.io */
+
+ion-icon {
+    font-size: 50px;
+    color: rgba(228, 227, 229, 0.6);
+    font-weight: bolder;
+}
+
+ion-icon:hover {
+    color: rgba(253, 151, 34, 0.8);
+    }
